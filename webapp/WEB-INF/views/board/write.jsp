@@ -49,7 +49,7 @@
         		} else {
         			alert('글이 등록되었습니다!');
         			frm.method='post';
-        			frm.action='writeok.jsp';
+        			frm.action='/mvc/board/write';
         			frm.submit();
         		} 	
         	}
