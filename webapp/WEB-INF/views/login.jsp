@@ -23,7 +23,7 @@
 				else if (frm.passwd.value == '')
 					alert('비밀번호를 입력하세요!');
 				else {
-					frm.action = 'loginok.jsp'
+					frm.action = '/mvc/login'
 					frm.submit();
 				}
 			}
