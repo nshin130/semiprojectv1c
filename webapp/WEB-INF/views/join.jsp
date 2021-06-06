@@ -2,6 +2,8 @@
 
         <!-- 메인영역 -->
             <h2>회원가입</h2>
+            <span style="color:red"> ${error} </span>
+            
            <form name="joinfrm" id="joinfrm" method="post">
            <div><label for="userid">아이디</label>
                <input type="text" name="userid" id="userid"></div>
@@ -44,7 +46,7 @@
 				else if (frm.email.value == '')
 					alert('이메일을 입력하세요!');
 				else {
-					frm.action = '/mvc/join';
+					frm.action = 'join';
 					frm.submit();
 				}	
 			}
