@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+/*전체 영역에 적용하는 스타일시트*/
+/*body {margin: 0}*/
+#wrap {width: 960px; margin: 0 auto;  /*border: 1px solid red;*/ }
+
+/*링크에 적용하는 스타일시트*/
+a { font-weight: bold }
+a:link{ text-decoration: none; color: black} /*링크밑줄지우기*/
+a:visited{ text-decoration: none; color: black} /*방문했을때*/
+a:active{ text-decoration: underline; color: orange}
+a:hover{ text-decoration: underline; color: orange}
+
+/*header 영역에 적용하는 스타일시트*/
+
+/*nav영역에 적용하는 스타일시트*/
+nav ul { list-style-type: none; padding-bottom: 15px;}
+nav ul li { float: left; margin-left: 100px;}
+nav hr { clear: both;}
+
+
+/*main 영역에 적용하는 스타일시트*/
+#container { min-height: 500px; }
+
+
+/*footer 영역에 적용하는 스타일시트*/
+footer p {text-align: center }
