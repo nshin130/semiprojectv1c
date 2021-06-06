@@ -52,6 +52,8 @@
         			frm.action='/mvc/board/write';
         			frm.submit();
         		} 	
+	
         	}
+        	
         	
         </script>
